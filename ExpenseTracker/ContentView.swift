@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Expense Tracker")
+                .font(.title)
+                .bold()
         }
         .padding()
     }
